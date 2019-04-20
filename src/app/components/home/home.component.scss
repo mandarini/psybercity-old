@@ -1,3 +1,28 @@
 .home {
   height: 80vh;
+  padding: 32px;
+  a,
+  a:link,
+  a:visited {
+    color: gray;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    color: rgb(223, 93, 136);
+  }
+
+  section {
+    margin: 48px;
+  }
+}
+
+@media (max-width: 550px) {
+  .home {
+    height: auto;
+    padding: 16px;
+    section{
+        margin: 48px 16px;
+    }
+  }
 }
