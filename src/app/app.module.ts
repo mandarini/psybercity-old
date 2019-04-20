@@ -5,10 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HomeComponent } from './components/home/home.component';
+import { GreecehopperComponent } from './components/greecehopper/greecehopper.component';
+import { CvComponent } from './components/cv/cv.component';
+import { TalksComponent } from './components/talks/talks.component';
+import { MonsterComponent } from './components/monster/monster.component';
+import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    GreecehopperComponent,
+    CvComponent,
+    TalksComponent,
+    MonsterComponent,
+    ErrorComponent
   ],
   imports: [
     BrowserModule,
