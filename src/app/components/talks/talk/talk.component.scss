@@ -1,0 +1,19 @@
+section {
+  border: 1px lightgrey solid;
+  border-radius: 3px;
+  padding: 16px 24px;
+  margin-bottom: 16px;
+  a {
+    padding-right: 8px;
+  }
+  a,
+  a:link,
+  a:visited {
+    color: gray;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    color: palevioletred;
+  }
+}

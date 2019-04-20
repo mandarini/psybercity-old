@@ -1,5 +1,5 @@
 export const talks = {
-  angular_connect_2017: {
+  "01_angular_connect_2017": {
     type: "conf_talk",
     date: "1510041600000",
     code: "angular_connect",
@@ -33,7 +33,7 @@ export const talks = {
     workshop: null,
     extras: ["Mentored ngGirls!"]
   },
-  ngVikings_2018: {
+  "02_ngVikings_2018": {
     type: "conf_talk",
     date: "1519891200000",
     code: "ng_vikings",
@@ -67,7 +67,7 @@ export const talks = {
     workshop: null,
     extras: ["Mentored ngGirls!"]
   },
-  ijs_london_2018: {
+  "03_ijs_london_2018": {
     type: "conf_talk",
     date: "1523520000000",
     code: "ijs",
@@ -98,7 +98,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  WeAreDevelopers_2018: {
+  "04_WeAreDevelopers_2018": {
     type: "conf_talk",
     date: "1526630400000",
     code: "we_are_developers",
@@ -136,7 +136,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  Voxxed_Days_athens_2018: {
+  "05_Voxxed_Days_athens_2018": {
     type: "conf_talk",
     date: "1527840000000",
     code: "voxxed_days",
@@ -174,7 +174,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  CodeEurope_2018: {
+  "06_CodeEurope_2018": {
     type: "conf_talk",
     date: "1528790400000",
     code: "code_europe",
@@ -212,7 +212,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  angular_UP_2018: {
+  "07_angular_UP_2018": {
     type: "conf_talk",
     date: "1529568000000",
     code: "angular_up",
@@ -249,7 +249,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  ngColombia_2018: {
+  "08_ngColombia_2018": {
     type: "conf_talk",
     date: "1536307200000",
     code: "ng_colombia",
@@ -300,7 +300,7 @@ export const talks = {
     },
     extras: ["Also mentored ngGirls!"]
   },
-  ijs_munich_2018: {
+  "09_ijs_munich_2018": {
     type: "conf_talk",
     date: "1539763200000",
     code: "ijs",
@@ -338,7 +338,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  Voxxed_Days_thessaloniki_2018: {
+  "10_Voxxed_Days_thessaloniki_2018": {
     type: "conf_talk",
     date: "1542614400000",
     code: "voxxed_days",
@@ -369,7 +369,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  developers_day_2019: {
+  "11_developers_day_2019": {
     type: "conf_talk",
     date: "1543651200000",
     code: "developers_day",
@@ -400,7 +400,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  FrontEnd_Connect_2018: {
+  "12_FrontEnd_Connect_2018": {
     type: "conf_talk",
     date: "1543917600000",
     code: "frontent_connect",
@@ -431,7 +431,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  ng_Atlanta_2019: {
+  "13_ng_Atlanta_2019": {
     type: "conf_talk",
     date: "1547028000000",
     code: "ng_atlanta",
@@ -467,7 +467,7 @@ export const talks = {
       "Participated in the Diversity Panel of ThisDot on the first day of the conference, and the Diversity Fireside Chat"
     ]
   },
-  angularathens_5th: {
+  "14_angularathens_5th": {
     type: "conf_talk",
     date: "1551175200000",
     code: "angularathens",
@@ -498,7 +498,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  modern_web_podcast_1: {
+  "15_modern_web_podcast_1": {
     type: "video_podcast",
     date: "1552518000000",
     code: "modern_web",
@@ -529,7 +529,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  devStaff_Heraklion_1: {
+  "16_devStaff_Heraklion_1": {
     type: "workshop_greecehopper",
     date: "1553187600000",
     code: "devstaff_her",
@@ -561,7 +561,7 @@ export const talks = {
     },
     extras: ["First in a series of workshops and talks around Greece"]
   },
-  wtm_greece_2019: {
+  "17_wtm_greece_2019": {
     date: "1553940000000",
     code: "wtm_greece",
     name: "Women Techmakers Greece - IWD19",
@@ -594,7 +594,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  real_talk_js_26: {
+  "18_real_talk_js_26": {
     date: "1554231600000",
     code: "real_talk_js",
     name: "RealTalk JavaScript",
@@ -624,7 +624,7 @@ export const talks = {
     workshop: null,
     extras: []
   },
-  ng_conf_2019: {
+  "19_ng_conf_2019": {
     date: "1543910400000",
     code: "ng_conf",
     name: "ng Conf 2019",

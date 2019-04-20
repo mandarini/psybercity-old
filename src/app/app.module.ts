@@ -11,6 +11,7 @@ import { CvComponent } from './components/cv/cv.component';
 import { TalksComponent } from './components/talks/talks.component';
 import { MonsterComponent } from './components/monster/monster.component';
 import { ErrorComponent } from './components/error/error.component';
+import { TalkComponent } from './components/talks/talk/talk.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ErrorComponent } from './components/error/error.component';
     CvComponent,
     TalksComponent,
     MonsterComponent,
-    ErrorComponent
+    ErrorComponent,
+    TalkComponent
   ],
   imports: [
     BrowserModule,

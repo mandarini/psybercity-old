@@ -1,0 +1,25 @@
+.all-talks {
+  padding: 24px;
+}
+
+a,
+a:link,
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: palevioletred;
+}
+a.router-link-active {
+  color: palevioletred;
+  font-weight: 600;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  z-index: 2;
+}
