@@ -1,0 +1,11 @@
+.monster {
+  height: 80vh;
+  padding: 32px;
+}
+
+@media (max-width: 550px) {
+  .home {
+    height: auto;
+    padding: 16px;
+  }
+}
