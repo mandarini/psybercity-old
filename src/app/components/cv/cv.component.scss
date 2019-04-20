@@ -1,0 +1,123 @@
+.full-cv-cont {
+  font-size: 0.7em;
+  padding: 16px;
+  a,
+  a:link,
+  a:visited {
+    color: gray;
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    color: rgb(223, 93, 136);
+  }
+  ul {
+    list-style: none;
+  }
+  //display: grid;
+  //
+  //grid-template-columns: auto 1fr;
+  //grid-template-rows: 1fr;
+  //grid-template-areas: "toc  everything";
+
+  .to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    z-index: 2;
+  }
+}
+
+.cv-container {
+  background-color: #fbfbfb;
+  padding: 15px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  font-size: 14px;
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #5e2f2f;
+  }
+
+  hr {
+    margin-bottom: 7px;
+    border-top: 1px solid #9e4653;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  section {
+    margin-bottom: 15px;
+  }
+
+  margin-bottom: 30px;
+}
+
+.short {
+}
+
+.cv-head {
+  font-size: 0.9em;
+  padding: 15px;
+  //border: solid #9e4653 1px;
+  background-color: white;
+  border-radius: 5px;
+  p {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+}
+
+.cv-summary {
+  p {
+    text-align: center;
+  }
+}
+
+.cv-skills {
+  //font-size: 0.9em;
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table td,
+  table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  table tr:hover {
+    background-color: #ddd;
+  }
+
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: #555555;
+  }
+}
+
+.cv-work {
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  table td {
+    border: 1px solid #bbb;
+    padding: 8px;
+  }
+}
