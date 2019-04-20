@@ -8,7 +8,7 @@ import { KeyValue } from "@angular/common";
   styleUrls: ["./talks.component.scss"]
 })
 export class TalksComponent implements OnInit {
-  all_talks: { [key: string]: {} } = talks;
+  all_talks: { [key: string]: any } = talks;
 
   constructor() {}
 

@@ -7,7 +7,7 @@ import { KeyValue } from "@angular/common";
   styleUrls: ["./talk.component.scss"]
 })
 export class TalkComponent implements OnInit {
-  @Input() talk: {};
+  @Input() talk: any;
   @Input() id_talk: number;
   @Input() talk_key: string;
 
