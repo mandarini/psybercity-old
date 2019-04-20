@@ -45,3 +45,40 @@ header {
     }
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 2px black solid;
+
+  .moto {
+    color: darkgrey;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+    li {
+      padding-right: 8px;
+      list-style: none;
+      a,
+      a:link,
+      a:visited {
+        color: gray;
+        text-decoration: none;
+      }
+      a:hover,
+      a:active {
+        color: palevioletred;
+      }
+      a.router-link-active {
+        color: palevioletred;
+        font-weight: 600;
+      }
+    }
+  }
+}
