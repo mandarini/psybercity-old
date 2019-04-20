@@ -5,7 +5,6 @@ import { CvComponent } from "./components/cv/cv.component";
 import { GreecehopperComponent } from "./components/greecehopper/greecehopper.component";
 import { MonsterComponent } from "./components/monster/monster.component";
 import { TalksComponent } from "./components/talks/talks.component";
-import { ErrorComponent } from "./components/error/error.component";
 
 const routes: Routes = [
   {
