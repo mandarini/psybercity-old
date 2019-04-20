@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 3px solid lightgrey;
+  padding: 8px 16px 16px 16px;
+  align-items: center;
+  a.myself,
+  a.myself:link,
+  a.myself:visited {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  a.myself:hover,
+  a.myself:active {
+    color: gray;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      margin: 8px;
+      li {
+        padding-right: 8px;
+        list-style: none;
+        a,
+        a:link,
+        a:visited {
+          color: gray;
+          text-decoration: none;
+        }
+        a:hover,
+        a:active {
+          color: palevioletred;
+        }
+        a.router-link-active {
+          color: palevioletred;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,48 @@
+<header>
+  <div>
+    <a class="myself" [routerLink]="['/']" routerLinkActive="router-link-active"
+      >katerina's place</a
+    >
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a [routerLink]="['/cv']" routerLinkActive="router-link-active">cv</a>
+      </li>
+      <li>
+        <a [routerLink]="['/talks']" routerLinkActive="router-link-active"
+          >talks</a
+        >
+      </li>
+      <li>
+        <a
+          [routerLink]="['/greecehopperJs']"
+          routerLinkActive="router-link-active"
+          >greecehopperJs</a
+        >
+      </li>
+      <li>
+        <a [routerLink]="['/monster']" routerLinkActive="router-link-active"
+          >monster</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
 <router-outlet></router-outlet>
+<footer>
+  <div class="moto">
+    katerina's little corner of the internet
+  </div>
+  <ul>
+    <li><a href="https://github.com/mandarini" target="_blank">github</a></li>
+    <li>
+      <a href="https://twitter.com/psybercity" target="_blank">twitter</a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/katerinaskroumpelou/" target="_blank"
+        >linkedin</a
+      >
+    </li>
+  </ul>
+</footer>
