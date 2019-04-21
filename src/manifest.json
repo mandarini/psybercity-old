@@ -1,7 +1,7 @@
 {
   "name": "psybercity",
   "short_name": "psybercity",
-  "theme_color": "#1976d2",
+  "theme_color": "#F3B7C3",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
