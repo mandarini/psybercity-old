@@ -286,7 +286,8 @@
         "docs": "https://github.com/mandarini/ngc-workshop-docs",
         "code": ["https://github.com/mandarini/ngc-workshop"],
         "demo": ["https://mandarini.github.io/ngc-workshop/"],
-        "photos": []
+        "photos": [],
+        "video": ""
       }
     },
     "extras": ["Also mentored ngGirls!"]
@@ -539,7 +540,8 @@
         "docs": "https://github.com/mandarini/chat-workshop-docs",
         "code": ["https://github.com/mandarini/chat-workshop-steps"],
         "demo": ["https://fbw-app.firebaseapp.com/"],
-        "photos": []
+        "photos": [],
+        "video": ""
       }
     },
     "extras": ["First in a series of workshops and talks around Greece"]
@@ -621,14 +623,14 @@
     },
     "talk": {
       "title": "It’s just a compliment after all!",
-      "description": "What’s it like for a woman in tech? This presentation will be a collection of horror stories from a woman technologist’s day to day. Some stories are funny. Others are horrifying. Some are sad, cringe-worthy or will make you cry. Why are some common behaviors considered inappropriate? It’s just a compliment after all, why do you fret so much? After some bad experiences, some years of therapy, and some talks with friends and co-workers, I will talk about why “just a compliment” is not appropriate in all settings. And how that compliment can result in an objectification of the person receiving it, instead of serving a spirit-lifting message.",
+      "description": "Some compliments just don’t work. Being a woman in tech highlights this phenomenon in sometimes cringe-worthy ways. And in some cases, certain “compliments” are just inappropriate. So how do we make friendships and set the right tone for compliments? I will talk about ways to do this in a professional setting, where both the person sending the compliment and the person receiving the compliment get the benefit of the spirit in which the compliment was intended. You’ll be able apply these ideas to anyone you work with, not just women.",
       "duration": "20 mins",
       "media": {
         "slides": "",
         "code": [],
         "demo": [],
         "photos": [],
-        "video": ""
+        "video": "https://youtu.be/6RobEjMnHtQ"
       }
     },
     "workshop": {
@@ -641,9 +643,40 @@
         "docs": null,
         "code": null,
         "demo": null,
-        "photos": []
+        "photos": [],
+        "video": "https://youtu.be/Rq4vjSkidPk"
       }
     },
+    "extras": []
+  },
+  "larissa_dev_2019": {
+    "type": "talk_greecehopper",
+    "date": "1558717200000",
+    "code": "larissa_dev",
+    "name": "Larissa Developers Meetup",
+    "year": 2019,
+    "month": 4,
+    "day": 24,
+    "conf_info": {
+      "website": "https://www.meetup.com/Larissa-Developers-Meetup/events/261475460/",
+      "location": "Larissa, Greece",
+      "coords": [39.636421, 22.40268],
+      "venue": "Linto Project, Larissa",
+      "date": "May 24, 2019"
+    },
+    "talk": {
+      "title": "Making apps happen with Firebase and Angular",
+      "description": "Use Angular and Firebase as a complete solution to build your web applications. From bootstrapping with the CLI, to database, storage, notifications and deployment with Firebase, in this presentation we will see how these two technologies combined can solve all your problems, making things simpler for you and your app. We'll see techniques, tips and best practices!",
+      "duration": "45 mins",
+      "media": {
+        "slides": "",
+        "code": [],
+        "demo": [],
+        "photos": [],
+        "video": ""
+      }
+    },
+    "workshop": null,
     "extras": []
   }
 }
