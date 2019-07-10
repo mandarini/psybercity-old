@@ -649,7 +649,7 @@
     },
     "extras": []
   },
-  "larissa_dev_2019": {
+  "20_larissa_dev_2019": {
     "type": "talk_greecehopper",
     "date": "1558717200000",
     "code": "larissa_dev",
@@ -671,6 +671,36 @@
       "media": {
         "slides": "",
         "code": [],
+        "demo": [],
+        "photos": [],
+        "video": ""
+      }
+    },
+    "workshop": null,
+    "extras": []
+  },
+  "21_angularathens_7th": {
+    "type": "conf_talk",
+    "date": "1551175200000",
+    "code": "angularathens",
+    "name": "Angular Athens 7th Meetup",
+    "year": 2019,
+    "month": 6,
+    "day": 9,
+    "conf_info": {
+      "website": "https://www.meetup.com/Angular-Athens/",
+      "location": "Athens, Greece",
+      "coords": [37.9780948, 23.712103],
+      "venue": "InnovAthens, Technopolis",
+      "date": "July 9th, 2019"
+    },
+    "talk": {
+      "title": "Tired of searching for a new house? Let Google Cloud do it for you",
+      "description": "You are on the lookout for a new house, but you are always a few hours late to spot it, someone has already called and booked it and you keep missing good opportunities. You can’t keep visiting that housing site every few minutes, hoping to run into that fresh ad, you’ve got work to do. But what if Google Cloud could do it all for you? And get into the trouble of notifying you with all it found, as well? In this session, we’ll see a full solution of how to create an Angular app backed by the serverless power of Google Cloud. We are going to store data, schedule a job that will write and edit this data, write a function that will observe these data, and push notifications to our app users. That is, all that your typical business website would need and couldn’t have because you just can’t have your own servers.",
+      "duration": "30 mins",
+      "media": {
+        "slides": "https://psybercity.page.link/cloud",
+        "code": ["https://github.com/mandarini/parser"],
         "demo": [],
         "photos": [],
         "video": ""
