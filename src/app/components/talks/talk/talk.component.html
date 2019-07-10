@@ -1,6 +1,6 @@
 <section [attr.id]="'talk' + id_talk">
   <h4>
-    {{ talk.name }}
+    <a [href]="talk.conf_info.website" target="_blank">{{ talk.name }}</a>
   </h4>
   <div>
     <p>Location: {{ talk.conf_info.location }}</p>

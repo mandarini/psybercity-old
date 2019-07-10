@@ -4,11 +4,14 @@
   <div class="to-top">
     <a href="/talks#top">top &#8682;</a>
   </div>
-  <p *ngFor="let talk of (all_talks | keyvalue: keyAscOrder); let i = index">
+  <p *ngFor="let talk of all_talks | keyvalue: keyAscOrder; let i = index">
     <a [href]="'/talks#talk' + i">{{ talk.value.name }}</a>
+    <small>
+      - <em>({{ talk.value.conf_info.date }})</em></small
+    >
   </p>
   <app-talk
-    *ngFor="let talk of (all_talks | keyvalue: keyAscOrder); let i = index"
+    *ngFor="let talk of all_talks | keyvalue: keyAscOrder; let i = index"
     [id_talk]="i"
     [talk]="talk.value"
     [talk_key]="talk.key"
