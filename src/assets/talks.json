@@ -708,5 +708,130 @@
     },
     "workshop": null,
     "extras": []
+  },
+  "22_angularonline": {
+    "type": "conf_talk",
+    "date": "1564689600000",
+    "code": "modernweb",
+    "name": "Modern Web - Angular Online",
+    "year": 2019,
+    "month": 7,
+    "day": 1,
+    "conf_info": {
+      "website": "https://www.thisdot.co/modern-web",
+      "location": "online",
+      "coords": [37.9780948, 23.712103],
+      "venue": "online",
+      "date": "August 1st, 2019"
+    },
+    "talk": {
+      "title": "Angularfire / the library that connects Firebase & Angular",
+      "description": "Angularfire / the library that connects Firebase & Angular.",
+      "duration": "30 mins",
+      "media": {
+        "slides": "https://psybercity.page.link/mw",
+        "code": [],
+        "demo": [],
+        "photos": [],
+        "video": "https://www.youtube.com/watch?v=C0sEEww274Y"
+      }
+    },
+    "workshop": null,
+    "extras": []
+  },
+  "23_ngde": {
+    "type": "conf_talk",
+    "date": "1567155600000",
+    "code": "ngde",
+    "name": "NG-DE 2019",
+    "year": 2019,
+    "month": 7,
+    "day": 30,
+    "conf_info": {
+      "website": "https://ng-de.org/",
+      "location": "Berlin, Germany",
+      "coords": [52.524441, 13.34629],
+      "venue": "BOLLE FESTSÄLE",
+      "date": "August 30th, 2019"
+    },
+    "talk": {
+      "title": "Creating A More Sustainable Development Team with Angular and the PAMstack",
+      "description": "Creating A More Sustainable Development Team with Angular and the PAMstack - with Tracy Lee",
+      "duration": "30 mins",
+      "media": {
+        "slides": "",
+        "code": [],
+        "demo": [],
+        "photos": [],
+        "video": "https://www.youtube.com/watch?v=6RfD4r5DEYc"
+      }
+    },
+    "workshop": null,
+    "extras": []
+  },
+  "24_cloud_functions_online": {
+    "type": "workshop_thisdot",
+    "date": "1570536000000",
+    "code": "workshop_thisdot",
+    "name": "This Dot Media Online Training",
+    "year": 2019,
+    "month": 9,
+    "day": 8,
+    "conf_info": {
+      "website": "https://devstaff.gr/",
+      "location": "online",
+      "coords": [37.9780948, 23.712103],
+      "venue": "online",
+      "date": "October 8th, 2019"
+    },
+    "talk": null,
+    "workshop": {
+      "title": "Google Cloud Functions and Firebase - Scaling your app for your needs",
+      "description": "Google Cloud Functions are a way to expand the capabilities of Firebase. In this training, we’ll see a full solution of how to create a web app backed by the serverless power of Google Cloud. We are going to store data in Cloud Firestore, we will learn how to schedule a job with the Google Cloud Scheduler, which will manipulate and back up this data, and finally send push notifications to our users. Reading and writing data to Cloud Firestore has a set of predefined methods, which might or might not meet our needs. What we will also learn in this training is how to create custom compound queries and data selections, using Cloud Functions triggered by the user. Finally, we will deploy our application on Firebase hosting. This remote, hands-on workshop is targeted for web developers who want to learn how to take full advantage of what Firebase and Google Cloud offer. Participants may have little or no experience with Firebase or serverless technologies.",
+      "duration": "6 hours",
+      "participants": "20",
+      "media": {
+        "slides": "https://docs.google.com/presentation/d/e/2PACX-1vQR0IVevvtTDhQqWeJViKSl7r5dA02IzEqH6GhKI47Ji9PwMN9HC7lsgXnq7heL-Mpru3AXfSesp4LG/pub?start=false&loop=false&delayms=3000",
+        "docs": "https://github.com/mandarini/shop-start/blob/master/tutorial/Step00.md",
+        "code": [
+          "https://github.com/mandarini/shop-start/blob/",
+          "https://github.com/mandarini/shop"
+        ],
+        "demo": ["https://shop-katerina.web.app/"],
+        "photos": [],
+        "video": ""
+      }
+    },
+    "extras": ["First in a series of online trainings for This Dot."]
+  },
+  "25_ngSpain": {
+    "type": "conf_talk",
+    "date": "1571486400000",
+    "code": "ngSpain",
+    "name": "ngSpain 2019",
+    "year": 2019,
+    "month": 9,
+    "day": 19,
+    "conf_info": {
+      "website": "https://ngspain.com/",
+      "location": "Madrid, Spain",
+      "coords": [40.412513, -3.718234],
+      "venue": "Google for Startups Campus",
+      "date": "October 19th, 2019"
+    },
+    "talk": {
+      "title": "You can do that with Google Maps?",
+      "description": "This is the question that will be whispered among the audience during the talk. Using Angular, we will explore the possibilities of the Google Maps Platform and the Google Maps JS API. If you think of any app today, chances are it's using some kind of map. Your app has users, your users have a location, your services are based on that. Still, we find it worrisome to just add that customized, branded, interactive map in our app, because it just might seem too complicated. And we resort to out of the box solutions. Well, good news. The Google Maps JS API is here for you (and it’s been here for the last 15 years, despite you not making the most of it). Today we’ll see how simple it is to add that desired map to your business, brand it to your needs, and go advanced all the way, with this one weird trick that will make leaflet users hate you.",
+      "duration": "30 mins",
+      "media": {
+        "slides": "https://psybercity.page.link/ng-spain",
+        "code": ["https://github.com/mandarini/ng-gmap"],
+        "demo": ["https://ng-gmap-kat.web.app"],
+        "photos": [],
+        "video": ""
+      }
+    },
+    "workshop": null,
+    "extras": []
   }
 }
