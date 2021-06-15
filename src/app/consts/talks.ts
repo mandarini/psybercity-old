@@ -12,7 +12,7 @@ export const talks = {
       location: "London, UK",
       coords: [51.5084634, 0.0276573],
       venue: "ExCel London",
-      date: "November 7–8, 2017"
+      date: "November 7–8, 2017",
     },
     talk: {
       title: "From Buildings to Software - Paving the Way to Construction",
@@ -25,13 +25,13 @@ export const talks = {
         demo: null,
         photos: [
           "https://firebasestorage.googleapis.com/v0/b/psybercity.appspot.com/o/conferences%2Fangularconnect%2F26529830919_807db6f7bc_o%20(1).jpg?alt=media&token=bba38dcb-b3af-4fa8-9b7b-590763384e06",
-          "https://firebasestorage.googleapis.com/v0/b/psybercity.appspot.com/o/conferences%2Fangularconnect%2F26529832799_28fdeda28d_o%20(1).jpg?alt=media&token=38b9b5be-9130-4d2f-b945-d50cf78d4475"
+          "https://firebasestorage.googleapis.com/v0/b/psybercity.appspot.com/o/conferences%2Fangularconnect%2F26529832799_28fdeda28d_o%20(1).jpg?alt=media&token=38b9b5be-9130-4d2f-b945-d50cf78d4475",
         ],
-        video: "https://youtu.be/nPhvfyJb6mM"
-      }
+        video: "https://youtu.be/nPhvfyJb6mM",
+      },
     },
     workshop: null,
-    extras: ["Mentored ngGirls!"]
+    extras: ["Mentored ngGirls!"],
   },
   "02_ngVikings_2018": {
     type: "conf_talk",
@@ -46,7 +46,7 @@ export const talks = {
       location: "Helsinki, Finland",
       coords: [60.1866623, 24.823241],
       venue: "Aalto University",
-      date: "March 1-2, 2018"
+      date: "March 1-2, 2018",
     },
     talk: {
       title: "Web Maps - Putting the M in Angular web apps!",
@@ -59,13 +59,13 @@ export const talks = {
         demo: ["https://mandarini.github.io/mapp"],
         photos: [
           "https://firebasestorage.googleapis.com/v0/b/psybercity.appspot.com/o/conferences%2FngVikings%2Fkaterina14.jpg?alt=media&token=2c263f26-3992-4382-91cc-e36a1a8cef9c",
-          "https://firebasestorage.googleapis.com/v0/b/psybercity.appspot.com/o/conferences%2FngVikings%2Fkaterina4.jpg?alt=media&token=aeb2fb1b-a58b-4dbe-89df-722923f1ab2d"
+          "https://firebasestorage.googleapis.com/v0/b/psybercity.appspot.com/o/conferences%2FngVikings%2Fkaterina4.jpg?alt=media&token=aeb2fb1b-a58b-4dbe-89df-722923f1ab2d",
         ],
-        video: "https://youtu.be/PqfJbbWdUWQ"
-      }
+        video: "https://youtu.be/PqfJbbWdUWQ",
+      },
     },
     workshop: null,
-    extras: ["Mentored ngGirls!"]
+    extras: ["Mentored ngGirls!"],
   },
   "03_ijs_london_2018": {
     type: "conf_talk",
@@ -80,7 +80,7 @@ export const talks = {
       location: "London, UK",
       coords: [51.5355906, -0.1069841],
       venue: "Business Design Centre",
-      date: "Apr 12-13, 2018"
+      date: "Apr 12-13, 2018",
     },
     talk: {
       title: "Angular with Maps? It’s Maptastic!",
@@ -92,11 +92,11 @@ export const talks = {
         code: ["https://github.com/mandarini/mapp"],
         demo: ["https://mandarini.github.io/mapp"],
         photos: [],
-        video: "https://www.youtube.com/watch?v=MbPPTzO2w58"
-      }
+        video: "https://www.youtube.com/watch?v=MbPPTzO2w58",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "04_WeAreDevelopers_2018": {
     type: "conf_talk",
@@ -111,7 +111,7 @@ export const talks = {
       location: "Vienna, Austria",
       coords: [48.231617, 16.4109157],
       venue: "Austria Center",
-      date: "May 18th, 2018"
+      date: "May 18th, 2018",
     },
     talk: {
       title: "Websockets turning physical motion into virtual motion!",
@@ -123,18 +123,18 @@ export const talks = {
         code: [
           "https://github.com/mandarini/m",
           "https://github.com/mandarini/im",
-          "https://github.com/mandarini/wsserver"
+          "https://github.com/mandarini/wsserver",
         ],
         demo: [
           "https://mandarini.github.io/m",
-          "https://mandarini.github.io/im"
+          "https://mandarini.github.io/im",
         ],
         photos: [],
-        video: "https://youtu.be/H6L4XT7alXs"
-      }
+        video: "https://youtu.be/H6L4XT7alXs",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "05_Voxxed_Days_athens_2018": {
     type: "conf_talk",
@@ -149,7 +149,7 @@ export const talks = {
       location: "Athens, Greece",
       coords: [38.0400906, 23.8180912],
       venue: "DAIS Cultural Centre",
-      date: "June 1, 2018"
+      date: "June 1, 2018",
     },
     talk: {
       title: "Angular real time interactions with WebSockets",
@@ -161,18 +161,18 @@ export const talks = {
         code: [
           "https://github.com/mandarini/m",
           "https://github.com/mandarini/im",
-          "https://github.com/mandarini/wsserver"
+          "https://github.com/mandarini/wsserver",
         ],
         demo: [
           "https://mandarini.github.io/m",
-          "https://mandarini.github.io/im"
+          "https://mandarini.github.io/im",
         ],
         photos: [],
-        video: "https://youtu.be/Bf6VdqNbRVw"
-      }
+        video: "https://youtu.be/Bf6VdqNbRVw",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "06_CodeEurope_2018": {
     type: "conf_talk",
@@ -187,7 +187,7 @@ export const talks = {
       location: "Poznan, Poland",
       coords: [52.4026784, 16.911046],
       venue: "Międzynarodowe Targi Poznańskie",
-      date: "June 12, 2018"
+      date: "June 12, 2018",
     },
     talk: {
       title: "Physical motion to Virtual motion with WebSockets",
@@ -199,18 +199,18 @@ export const talks = {
         code: [
           "https://github.com/mandarini/m",
           "https://github.com/mandarini/im",
-          "https://github.com/mandarini/wsserver"
+          "https://github.com/mandarini/wsserver",
         ],
         demo: [
           "https://mandarini.github.io/m",
-          "https://mandarini.github.io/im"
+          "https://mandarini.github.io/im",
         ],
         photos: [],
-        video: null
-      }
+        video: null,
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "07_angular_UP_2018": {
     type: "conf_talk",
@@ -225,7 +225,7 @@ export const talks = {
       location: "Tel Aviv, Israel",
       coords: [32.0654006, 34.7628841],
       venue: "Dan Panorama Tel -Aviv",
-      date: "June 21, 2018"
+      date: "June 21, 2018",
     },
     talk: {
       title: "Angular - Maps - Users of Apps",
@@ -236,18 +236,18 @@ export const talks = {
         slides: "https://mandarini.github.io/ngUPPres/",
         code: [
           "https://github.com/mandarini/map-user",
-          "https://github.com/mandarini/map-dashboard"
+          "https://github.com/mandarini/map-dashboard",
         ],
         demo: [
           "https://mandarini.github.io/map-user",
-          "https://mandarini.github.io/map-dashboard"
+          "https://mandarini.github.io/map-dashboard",
         ],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "08_ngColombia_2018": {
     type: "conf_talk",
@@ -262,7 +262,7 @@ export const talks = {
       location: "Medellin, Colombia",
       coords: [6.243471, -75.575222],
       venue: "Plaza Mayor",
-      date: "September 6-7, 2018"
+      date: "September 6-7, 2018",
     },
     talk: {
       title: "Angular real time interactions with WebSockets",
@@ -274,15 +274,15 @@ export const talks = {
         code: [
           "https://github.com/mandarini/m",
           "https://github.com/mandarini/im",
-          "https://github.com/mandarini/wsserver"
+          "https://github.com/mandarini/wsserver",
         ],
         demo: [
           "https://mandarini.github.io/m",
-          "https://mandarini.github.io/im"
+          "https://mandarini.github.io/im",
         ],
         photos: [],
-        video: "https://www.youtube.com/watch?v=KVQWYDet67I"
-      }
+        video: "https://www.youtube.com/watch?v=KVQWYDet67I",
+      },
     },
     workshop: {
       title: "Getting Real-Time with Firebase and Angular",
@@ -296,10 +296,10 @@ export const talks = {
         code: ["https://github.com/mandarini/ngc-workshop"],
         demo: ["https://mandarini.github.io/ngc-workshop/"],
         photos: [],
-        video: null
-      }
+        video: null,
+      },
     },
-    extras: ["Also mentored ngGirls!"]
+    extras: ["Also mentored ngGirls!"],
   },
   "09_ijs_munich_2018": {
     type: "conf_talk",
@@ -314,7 +314,7 @@ export const talks = {
       location: "Munich, Germany",
       coords: [48.1305162, 11.5884883],
       venue: "Holiday Inn München - Stadtzentrum",
-      date: "October 17, 2018"
+      date: "October 17, 2018",
     },
     talk: {
       title: "Angular real time interactions with WebSockets",
@@ -326,18 +326,18 @@ export const talks = {
         code: [
           "https://github.com/mandarini/m",
           "https://github.com/mandarini/im",
-          "https://github.com/mandarini/wsserver"
+          "https://github.com/mandarini/wsserver",
         ],
         demo: [
           "https://mandarini.github.io/m",
-          "https://mandarini.github.io/im"
+          "https://mandarini.github.io/im",
         ],
         photos: [],
-        video: null
-      }
+        video: null,
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "10_Voxxed_Days_thessaloniki_2018": {
     type: "conf_talk",
@@ -352,23 +352,23 @@ export const talks = {
       location: "Thessaloniki, Greece",
       coords: [40.6258549, 22.9526225],
       venue: "Ioannis Velidis Conference Centre",
-      date: "November 19-20, 2018"
+      date: "November 19-20, 2018",
     },
     talk: {
       title: "Exploring the Lighthouse",
       description:
-        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, “PWA”, “Performance”, “Accessibility”, “Best Practices” and “SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
+        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, 'PWA”, 'Performance”, 'Accessibility”, 'Best Practices” and 'SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
       duration: "30 mins",
       media: {
         slides: "https://psybercity.page.link/vthess",
         code: ["https://github.com/mandarini/explorer"],
         demo: ["https://mandarini.github.io/explorer"],
         photos: [],
-        video: "https://youtu.be/iDdKlM26xsc"
-      }
+        video: "https://youtu.be/iDdKlM26xsc",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "11_developers_day_2019": {
     type: "conf_talk",
@@ -383,7 +383,7 @@ export const talks = {
       location: "Athens, Greece",
       coords: [38.0400906, 23.8180912],
       venue: "DAIS Cultural Centre",
-      date: "December 1, 2018"
+      date: "December 1, 2018",
     },
     talk: {
       title:
@@ -395,11 +395,11 @@ export const talks = {
         code: [],
         demo: [],
         photos: [],
-        video: "https://www.youtube.com/watch?v=O_vT-EvkS9Q"
-      }
+        video: "https://www.youtube.com/watch?v=O_vT-EvkS9Q",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "12_FrontEnd_Connect_2018": {
     type: "conf_talk",
@@ -414,23 +414,23 @@ export const talks = {
       location: "Warsaw, Poland",
       coords: [52.231838, 21.005995],
       venue: "Palace of Culture and Science, Plac Defilad 1",
-      date: "December 4, 2018"
+      date: "December 4, 2018",
     },
     talk: {
       title: "Exploring the Lighthouse",
       description:
-        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, “PWA”, “Performance”, “Accessibility”, “Best Practices” and “SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
+        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, 'PWA”, 'Performance”, 'Accessibility”, 'Best Practices” and 'SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
       duration: "30 mins",
       media: {
         slides: "https://psybercity.page.link/fec",
         code: ["https://github.com/mandarini/explorer"],
         demo: ["https://mandarini.github.io/explorer"],
         photos: [],
-        video: "https://www.youtube.com/watch?v=X1QGHLkA8Ps"
-      }
+        video: "https://www.youtube.com/watch?v=X1QGHLkA8Ps",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "13_ng_Atlanta_2019": {
     type: "conf_talk",
@@ -445,28 +445,28 @@ export const talks = {
       location: "Atlanta, GA",
       coords: [34.0715313, -84.2725293],
       venue: "The Hotel at Avalon 9000 Avalon Blvd",
-      date: "January 9-12, 2019"
+      date: "January 9-12, 2019",
     },
     talk: {
       title: "Machine Learning - Angular can Learn, too!",
       description:
-        "A year ago, the much-awaited TensorflowJs hit the web. In this presentation, it hits Angular as well. Tensorflow is a “an open source machine learning framework” by Google, and it is finally available to run in our browsers, too. In this presentation we will go through the core concepts of machine learning, and see how these are put into practice with TensorflowJs. We will briefly discuss use-cases and see how machine learning (and now you and your browser) can help solve everyday problems (such as image recognition, computer vision etc). There will be a live demo, of course, of Angular and TensorflowJs implementation, where we will see how these two work together, and what we can make of this union. At the end of this presentation, the participants will want to rush home and get their hands dirty with the future of web, that is the magic of JavaScript enabled machine learning.",
+        "A year ago, the much-awaited TensorflowJs hit the web. In this presentation, it hits Angular as well. Tensorflow is a 'an open source machine learning framework” by Google, and it is finally available to run in our browsers, too. In this presentation we will go through the core concepts of machine learning, and see how these are put into practice with TensorflowJs. We will briefly discuss use-cases and see how machine learning (and now you and your browser) can help solve everyday problems (such as image recognition, computer vision etc). There will be a live demo, of course, of Angular and TensorflowJs implementation, where we will see how these two work together, and what we can make of this union. At the end of this presentation, the participants will want to rush home and get their hands dirty with the future of web, that is the magic of JavaScript enabled machine learning.",
       duration: "30 mins",
       media: {
         slides: "https://psybercity.page.link/ng-atl",
         code: [
           "https://github.com/mandarini/accessible",
-          "https://github.com/mandarini/signlock"
+          "https://github.com/mandarini/signlock",
         ],
         demo: ["https://signlock-psyb.firebaseapp.com/home"],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
     workshop: null,
     extras: [
-      "Participated in the Diversity Panel of ThisDot on the first day of the conference, and the Diversity Fireside Chat"
-    ]
+      "Participated in the Diversity Panel of ThisDot on the first day of the conference, and the Diversity Fireside Chat",
+    ],
   },
   "14_angularathens_5th": {
     type: "conf_talk",
@@ -481,23 +481,23 @@ export const talks = {
       location: "Athens, Greece",
       coords: [37.9780948, 23.712103],
       venue: "InnovAthens, Technopolis",
-      date: "February 26th, 2019"
+      date: "February 26th, 2019",
     },
     talk: {
       title: "Exploring the Lighthouse",
       description:
-        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, “PWA”, “Performance”, “Accessibility”, “Best Practices” and “SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
+        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, 'PWA”, 'Performance”, 'Accessibility”, 'Best Practices” and 'SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
       duration: "30 mins",
       media: {
         slides: "https://psybercity.page.link/aa5",
         code: ["https://github.com/mandarini/explorer"],
         demo: ["https://mandarini.github.io/explorer"],
         photos: [],
-        video: "https://www.youtube.com/watch?v=W9jooRutnEA"
-      }
+        video: "https://www.youtube.com/watch?v=W9jooRutnEA",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "15_modern_web_podcast_1": {
     type: "video_podcast",
@@ -512,23 +512,23 @@ export const talks = {
       location: "online",
       coords: [],
       venue: "online",
-      date: "March 13, 2019"
+      date: "March 13, 2019",
     },
     talk: {
       title: "Exploring the Lighthouse",
       description:
-        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, “PWA”, “Performance”, “Accessibility”, “Best Practices” and “SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
+        "In this session will explore the awesome Lighthouse tool and its cool features. We will start from bootstrapping a simple web application, and we will see how we can reach better scores in each of the five audits of Lighthouse, 'PWA”, 'Performance”, 'Accessibility”, 'Best Practices” and 'SEO” in our web applications. The purpose of the talk will be to showcase how the Lighthouse tool can help us build better apps for the web, and the mobile web. And the accessible web. And the web where connectivity is poor and you end up playing T-Rex runner.",
       duration: "30 mins",
       media: {
         slides: "https://psybercity.page.link/modern-web",
         code: ["https://github.com/mandarini/explorer"],
         demo: ["https://mandarini.github.io/explorer"],
         photos: [],
-        video: "https://www.youtube.com/watch?v=ObTe60S96yk"
-      }
+        video: "https://www.youtube.com/watch?v=ObTe60S96yk",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "16_devStaff_Heraklion_1": {
     type: "workshop_greecehopper",
@@ -543,7 +543,7 @@ export const talks = {
       location: "Heraklion, Crete",
       coords: [35.340906, 25.1341121],
       venue: "h2b hub",
-      date: "March 21st, 2019"
+      date: "March 21st, 2019",
     },
     talk: null,
     workshop: {
@@ -558,10 +558,10 @@ export const talks = {
         code: ["https://github.com/mandarini/chat-workshop-steps"],
         demo: ["https://fbw-app.firebaseapp.com/"],
         photos: [],
-        video: null
-      }
+        video: null,
+      },
     },
-    extras: ["First in a series of workshops and talks around Greece"]
+    extras: ["First in a series of workshops and talks around Greece"],
   },
   "17_wtm_greece_2019": {
     date: "1553940000000",
@@ -575,26 +575,26 @@ export const talks = {
       location: "Athens, Greece",
       coords: [37.9731324, 23.7055633],
       venue: "SERAFEIO ATHLETIC & COMMUNITY COMPLEX",
-      date: "March 30th, 2019"
+      date: "March 30th, 2019",
     },
     talk: {
       title: "Machine Learning - Angular can Learn, too!",
       description:
-        "A year ago, the much-awaited TensorflowJs hit the web. In this presentation, it hits Angular as well. Tensorflow is a “an open source machine learning framework” by Google, and it is finally available to run in our browsers, too. In this presentation we will go through the core concepts of machine learning, and see how these are put into practice with TensorflowJs. We will briefly discuss use-cases and see how machine learning (and now you and your browser) can help solve everyday problems (such as image recognition, computer vision etc). There will be a live demo, of course, of Angular and TensorflowJs implementation, where we will see how these two work together, and what we can make of this union. At the end of this presentation, the participants will want to rush home and get their hands dirty with the future of web, that is the magic of JavaScript enabled machine learning.",
+        "A year ago, the much-awaited TensorflowJs hit the web. In this presentation, it hits Angular as well. Tensorflow is a 'an open source machine learning framework” by Google, and it is finally available to run in our browsers, too. In this presentation we will go through the core concepts of machine learning, and see how these are put into practice with TensorflowJs. We will briefly discuss use-cases and see how machine learning (and now you and your browser) can help solve everyday problems (such as image recognition, computer vision etc). There will be a live demo, of course, of Angular and TensorflowJs implementation, where we will see how these two work together, and what we can make of this union. At the end of this presentation, the participants will want to rush home and get their hands dirty with the future of web, that is the magic of JavaScript enabled machine learning.",
       duration: "30 mins",
       media: {
         slides: "https://goo.gl/hrV5zs",
         code: [
           "https://github.com/mandarini/accessible",
-          "https://github.com/mandarini/signlock"
+          "https://github.com/mandarini/signlock",
         ],
         demo: ["https://signlock-psyb.firebaseapp.com"],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "18_real_talk_js_26": {
     date: "1554231600000",
@@ -608,7 +608,7 @@ export const talks = {
       location: "online",
       coords: [],
       venue: "online",
-      date: "April 2, 2019"
+      date: "April 2, 2019",
     },
     talk: {
       title: "Episode 26: Firebase with Katerina Skroumpelou",
@@ -620,11 +620,11 @@ export const talks = {
         code: null,
         demo: null,
         photos: null,
-        video: "https://realtalkjavascript.simplecast.fm/05791005"
-      }
+        video: "https://realtalkjavascript.simplecast.fm/05791005",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "19_ng_conf_2019": {
     date: "1543910400000",
@@ -638,20 +638,20 @@ export const talks = {
       location: "Salt Lake City, UT",
       coords: [38.0400906, 23.8180912],
       venue: "Grand America Hotel, Salt Lake City, UT",
-      date: "May 1-3, 2019"
+      date: "May 1-3, 2019",
     },
     talk: {
       title: "It’s just a compliment after all!",
       description:
-        "Some compliments just don’t work. Being a woman in tech highlights this phenomenon in sometimes cringe-worthy ways. And in some cases, certain “compliments” are just inappropriate. So how do we make friendships and set the right tone for compliments? I will talk about ways to do this in a professional setting, where both the person sending the compliment and the person receiving the compliment get the benefit of the spirit in which the compliment was intended. You’ll be able apply these ideas to anyone you work with, not just women.",
+        "Some compliments just don’t work. Being a woman in tech highlights this phenomenon in sometimes cringe-worthy ways. And in some cases, certain 'compliments” are just inappropriate. So how do we make friendships and set the right tone for compliments? I will talk about ways to do this in a professional setting, where both the person sending the compliment and the person receiving the compliment get the benefit of the spirit in which the compliment was intended. You’ll be able apply these ideas to anyone you work with, not just women.",
       duration: "20 mins",
       media: {
         slides: "",
         code: [],
         demo: [],
         photos: [],
-        video: "https://youtu.be/6RobEjMnHtQ"
-      }
+        video: "https://youtu.be/6RobEjMnHtQ",
+      },
     },
     workshop: {
       title:
@@ -666,10 +666,10 @@ export const talks = {
         code: null,
         demo: null,
         photos: [],
-        video: "https://youtu.be/Rq4vjSkidPk"
-      }
+        video: "https://youtu.be/Rq4vjSkidPk",
+      },
     },
-    extras: []
+    extras: [],
   },
   "20_larissa_dev_2019": {
     type: "talk_greecehopper",
@@ -685,7 +685,7 @@ export const talks = {
       location: "Larissa, Greece",
       coords: [39.636421, 22.40268],
       venue: "Linto Project, Larissa",
-      date: "May 24, 2019"
+      date: "May 24, 2019",
     },
     talk: {
       title: "Making apps happen with Firebase and Angular",
@@ -697,11 +697,11 @@ export const talks = {
         code: [],
         demo: [],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "21_angularathens_7th": {
     type: "conf_talk",
@@ -716,7 +716,7 @@ export const talks = {
       location: "Athens, Greece",
       coords: [37.9780948, 23.712103],
       venue: "InnovAthens, Technopolis",
-      date: "July 9th, 2019"
+      date: "July 9th, 2019",
     },
     talk: {
       title:
@@ -729,11 +729,11 @@ export const talks = {
         code: ["https://github.com/mandarini/parser"],
         demo: [],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "22_angularonline": {
     type: "conf_talk",
@@ -748,7 +748,7 @@ export const talks = {
       location: "online",
       coords: [37.9780948, 23.712103],
       venue: "online",
-      date: "August 1st, 2019"
+      date: "August 1st, 2019",
     },
     talk: {
       title: "Angularfire / the library that connects Firebase & Angular",
@@ -760,11 +760,11 @@ export const talks = {
         code: [],
         demo: [],
         photos: [],
-        video: "https://www.youtube.com/watch?v=C0sEEww274Y"
-      }
+        video: "https://www.youtube.com/watch?v=C0sEEww274Y",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "23_ngde": {
     type: "conf_talk",
@@ -779,7 +779,7 @@ export const talks = {
       location: "Berlin, Germany",
       coords: [52.524441, 13.34629],
       venue: "BOLLE FESTSÄLE",
-      date: "August 30th, 2019"
+      date: "August 30th, 2019",
     },
     talk: {
       title:
@@ -792,11 +792,11 @@ export const talks = {
         code: [],
         demo: [],
         photos: [],
-        video: "https://www.youtube.com/watch?v=6RfD4r5DEYc"
-      }
+        video: "https://www.youtube.com/watch?v=6RfD4r5DEYc",
+      },
     },
     workshop: null,
-    extras: []
+    extras: [],
   },
   "24_cloud_functions_online": {
     type: "workshop_thisdot",
@@ -811,7 +811,7 @@ export const talks = {
       location: "online",
       coords: [37.9780948, 23.712103],
       venue: "online",
-      date: "October 8th, 2019"
+      date: "October 8th, 2019",
     },
     talk: null,
     workshop: {
@@ -824,18 +824,17 @@ export const talks = {
       media: {
         slides:
           "https://docs.google.com/presentation/d/e/2PACX-1vQR0IVevvtTDhQqWeJViKSl7r5dA02IzEqH6GhKI47Ji9PwMN9HC7lsgXnq7heL-Mpru3AXfSesp4LG/pub?start=false&loop=false&delayms=3000",
-        docs:
-          "https://github.com/mandarini/shop-start/blob/master/tutorial/Step00.md",
+        docs: "https://github.com/mandarini/shop-start/blob/master/tutorial/Step00.md",
         code: [
           "https://github.com/mandarini/shop-start/blob/",
-          "https://github.com/mandarini/shop"
+          "https://github.com/mandarini/shop",
         ],
         demo: ["https://shop-katerina.web.app/"],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
-    extras: ["First in a series of online trainings for This Dot."]
+    extras: ["First in a series of online trainings for This Dot."],
   },
   "25_ngSpain": {
     type: "conf_talk",
@@ -850,7 +849,7 @@ export const talks = {
       location: "Madrid, Spain",
       coords: [40.412513, -3.718234],
       venue: "Google for Startups Campus",
-      date: "October 19th, 2019"
+      date: "October 19th, 2019",
     },
     talk: {
       title: "You can do that with Google Maps?",
@@ -862,10 +861,225 @@ export const talks = {
         code: ["https://github.com/mandarini/ng-gmap"],
         demo: ["https://ng-gmap-kat.web.app"],
         photos: [],
-        video: ""
-      }
+        video: "",
+      },
     },
     workshop: null,
-    extras: []
-  }
+    extras: [],
+  },
+  "26_frontmania": {
+    type: "conf_talk",
+    date: "1573834500000",
+    code: "frontmania",
+    name: "Frontmania 2019",
+    year: 2019,
+    month: 10,
+    day: 15,
+    conf_info: {
+      website: "https://frontmania.com/",
+      location: "Utrecht, Netherlands",
+      coords: [52.08608183098601, 5.109298112218157],
+      venue: "Rabobank Duisenberg Auditorium",
+      date: "November 15th, 2019",
+    },
+    talk: {
+      title:
+        "There’s no talent (or luck or favoritism), just hard work - but is it worth it? link",
+      description:
+        "If you’re sitting there wondering 'How did they manage that?', well, you now have the answer. In this talk we’ll go through all the clichés and myths concerning 'life achievements”, including the term 'life achievements”. In our culture, in our age and time, and in our industry, burnout and the impostor syndrome are real. But so are toxic environments that ask you to overwork yourself. And so are toxic people who like to think that those who 'made it” (another cliché we’ll talk about) did so because they got lucky or favored. But let’s take a step back and think for a second. Let’s redefine our goals and choices and let’s think about what drives them. Is a 'life achievement” a generally accepted standard? When will you feel that you finally 'made it”? Is our perception of success driven by what we really want, or rather by movies, rockstar developers, and the life of Steve Jobs?",
+      duration: "30 mins",
+      media: {
+        photos: [],
+      },
+    },
+    workshop: null,
+    extras: [],
+  },
+  "27_gmaps_online": {
+    type: "workshop_thisdot",
+    date: "1574180701000",
+    code: "workshop_thisdot",
+    name: "This Dot Media Online Training",
+    year: 2019,
+    month: 10,
+    day: 19,
+    conf_info: {
+      website: "https://www.thisdot.co/",
+      location: "online",
+      coords: [],
+      venue: "online",
+      date: "November 19th, 2019",
+    },
+    talk: null,
+    workshop: {
+      title: "Google Maps Platform: Adding Geo to your Web Apps link",
+      description:
+        "Designed to teach participants how to use the Google Maps Platform, and enable them to enhance the user experience of their apps and businesses using maps. This is a framework agnostic course. The Google Maps JavaScript API can be integrated in any app of any framework. We might use a framework to create a wrapper app for our map, but we will use vanilla JavaScript to interact with the Google Maps API.",
+      duration: "6 hours",
+      participants: "20",
+      media: {
+        code: ["https://github.com/mandarini/gmap-vanilla-start"],
+        demo: ["https://ng-gmap-kat.web.app"],
+        photos: [],
+        video: "",
+      },
+    },
+    extras: ["Second in a series of online trainings for This Dot."],
+  },
+  "28_gdgAthens": {
+    type: "conf_talk",
+    date: "1571486400000",
+    code: "gdgAthens",
+    name: "GDG Athens December 2019",
+    year: 2019,
+    month: 11,
+    day: 12,
+    conf_info: {
+      website: "https://gdg.community.dev/gdg-athens/",
+      location: "Athens, Greece",
+      coords: [37.975237859466006, 23.71091679820261],
+      venue: "Found.ation",
+      date: "December 12th, 2019",
+    },
+    talk: {
+      title: "You can do that with Google Maps?",
+      description:
+        "This is the question that will be whispered among the audience during the talk. Using Angular, we will explore the possibilities of the Google Maps Platform and the Google Maps JS API. If you think of any app today, chances are it's using some kind of map. Your app has users, your users have a location, your services are based on that. Still, we find it worrisome to just add that customized, branded, interactive map in our app, because it just might seem too complicated. And we resort to out of the box solutions. Well, good news. The Google Maps JS API is here for you (and it’s been here for the last 15 years, despite you not making the most of it). Today we’ll see how simple it is to add that desired map to your business, brand it to your needs, and go advanced all the way, with this one weird trick that will make leaflet users hate you.",
+      duration: "30 mins",
+      media: {
+        slides: "https://psybercity.page.link/gdgath",
+        code: ["https://github.com/mandarini/ng-gmap"],
+        demo: ["https://ng-gmap-kat.web.app"],
+        photos: [],
+        video: "",
+      },
+    },
+    workshop: null,
+    extras: [],
+  },
+  "29_jsvidcon": {
+    type: "conf_talk",
+    date: "1590769501000",
+    code: "jsvidcon",
+    name: "JSVidCon",
+    year: 2020,
+    month: 4,
+    day: 7,
+    conf_info: {
+      website: "https://jsvidcon.com/",
+      location: "online",
+      coords: [37.9780948, 23.712103],
+      venue: "online",
+      date: "May 7th, 2020",
+    },
+    talk: {
+      title: "Angular & Google Maps",
+      description:
+        "Using Angular, we will explore the possibilities of the Google Maps Platform and the Google Maps JS API. If you think of any app today, chances are it's using some kind of map. Your app has users, your users have a location, your services are based on that. Still, we find it worrisome to just add that customized, branded, interactive map in our app, because it just might seem too complicated. And we resort to out of the box solutions. Well, good news. The Google Maps JS API is here for you (and it’s been here for the last 15 years, despite you not making the most of it). Today we’ll see how simple it is to add that desired map to your business, brand it to your needs, and go advanced all the way, with this one weird trick that will make leaflet users hate you.",
+      duration: "30 mins",
+      media: {
+        slides: "https://psybercity.page.link/mw",
+        code: [],
+        demo: [],
+        photos: [],
+      },
+    },
+    workshop: null,
+    extras: [],
+  },
+  "30_angularwomensday": {
+    type: "conf_talk",
+    date: "1590769501000",
+    code: "angularwomensday",
+    name: "Angular International Women's Day 2020",
+    year: 2020,
+    month: 4,
+    day: 29,
+    conf_info: {
+      website: "https://www.thisdot.co/modern-web",
+      location: "online",
+      coords: [37.9780948, 23.712103],
+      venue: "online",
+      date: "May 29th, 2020",
+    },
+    talk: {
+      title: "Google Maps in Angular",
+      description:
+        "Using Google Maps in Angular and the Google Maps JS API in General, as part of the Google Cloud Platform",
+      duration: "30 mins",
+      media: {
+        slides: "https://psybercity.page.link/mw",
+        code: [],
+        demo: [],
+        photos: [],
+        video: "https://www.youtube.com/watch?v=S3D8t7acksw",
+      },
+    },
+    workshop: null,
+    extras: [],
+  },
+  "31_warsawjs": {
+    type: "conf_talk",
+    date: "1590769501000",
+    code: "warsawjs",
+    name: "WarsawJS June 2020",
+    year: 2020,
+    month: 5,
+    day: 10,
+    conf_info: {
+      website: "https://warsawjs.com/",
+      location: "online",
+      coords: [37.9780948, 23.712103],
+      venue: "online",
+      date: "June 10th, 2020",
+    },
+    talk: {
+      title: "Google Maps JS API - Directions Service link",
+      description:
+        "Now that we're all stuck at home, let's see how we can find directions to all the places we want to go when we leave the house! In this short talk, we'll see how easy and fast it is to add the Google Maps Directions service to your application! Let your users decide how they can reach you, using the API that you, too, use daily when moving around in the city!",
+      duration: "10 mins",
+      media: {
+        slides:
+          "https://docs.google.com/presentation/d/e/2PACX-1vTUFeG4cfooodb3wb6lPeirRnRNUxZmsHDSuxkBMcBfZEdjski0kck9OXKtUSshYjirxan5tGVLkbmA/pub?start=false&loop=false&delayms=3000",
+        code: [],
+        demo: [],
+        photos: [],
+        video: "https://www.youtube.com/watch?v=ij3AehQwZNE",
+      },
+    },
+    workshop: null,
+    extras: [],
+  },
+  "32_adventuresinangular": {
+    date: "1554231600000",
+    code: "adventuresinangular",
+    name: "Adventures in Angular",
+    year: 2020,
+    month: 8,
+    day: 15,
+    conf_info: {
+      website: "https://devchat.tv/podcasts/adv-in-angular/",
+      location: "online",
+      coords: [],
+      venue: "online",
+      date: "September 15th, 2020",
+    },
+    talk: {
+      title:
+        "AiA 299: Working with Google Maps on Angular with Katerina Skroumpelou",
+      description:
+        "Katerina Skroumpelou is a Google Maps & Angular Google Developer Expert and team member at @nrwl_io living in Greece. In this episode, Katerina talks through how she got started with Google Maps. She also covers how the Google Maps JS API has changed overtime, how you yourself can get started using it in your Angular Applications and what all you can do with the API!",
+      duration: "40 mins",
+      media: {
+        slides: null,
+        code: null,
+        demo: null,
+        photos: null,
+        video:
+          "https://devchat.tv/adv-in-angular/aia-299-working-with-google-maps-on-angular-with-katerina-skroumpelou/",
+      },
+    },
+    workshop: null,
+    extras: [],
+  },
 };

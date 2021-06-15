@@ -1,20 +1,16 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 import { talks } from "src/app/consts/talks";
 import { KeyValue } from "@angular/common";
 
 @Component({
   selector: "app-talks",
   templateUrl: "./talks.component.html",
-  styleUrls: ["./talks.component.scss"]
+  styleUrls: ["./talks.component.scss"],
 })
-export class TalksComponent implements OnInit {
+export class TalksComponent {
   all_talks: { [key: string]: any } = talks;
 
   constructor() {}
-
-  ngOnInit() {
-    console.log(this.all_talks);
-  }
 
   keyAscOrder = (
     a: KeyValue<number, string>,

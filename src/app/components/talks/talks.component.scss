@@ -1,10 +1,14 @@
 .all-talks {
   padding: 24px;
   p {
-    small {
-      color: lightblue;
+    .date {
+      color: rgb(190, 121, 246);
     }
   }
+}
+
+.disclaimers {
+  color: lightseagreen;
 }
 
 a,
