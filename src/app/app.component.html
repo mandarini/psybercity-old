@@ -7,24 +7,94 @@
   <nav>
     <ul>
       <li>
-        <a [routerLink]="['/cv']" routerLinkActive="router-link-active">cv</a>
+        <a [routerLink]="['/🐈']" routerLinkActive="router-link-active">
+          <ng-container *ngIf="width === 'small'">🏠</ng-container>
+          <ng-container *ngIf="width === 'large'">
+            <div class="wrapper">
+              <div class="cube">
+                <div>🏠</div>
+                <div>/></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </ng-container>
+        </a>
       </li>
       <li>
-        <a [routerLink]="['/talks']" routerLinkActive="router-link-active"
-          >talks</a
-        >
+        <a [routerLink]="['/cv']" routerLinkActive="router-link-active">
+          <ng-container *ngIf="width === 'small'">cv</ng-container>
+          <ng-container *ngIf="width === 'large'">
+            <div class="wrapper">
+              <div class="cube">
+                <div>cv</div>
+                <div>/></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div> </ng-container
+        ></a>
+      </li>
+      <li>
+        <a [routerLink]="['/talks']" routerLinkActive="router-link-active">
+          <ng-container *ngIf="width === 'small'">🗣️</ng-container>
+          <ng-container *ngIf="width === 'large'">
+            <div class="wrapper">
+              <div class="cube">
+                <div>talks</div>
+                <div>/></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </ng-container>
+        </a>
       </li>
       <li>
         <a
           [routerLink]="['/greecehopperJs']"
           routerLinkActive="router-link-active"
-          >greecehopperJs</a
         >
+          <ng-container *ngIf="width === 'small'">🦗Js</ng-container>
+          <ng-container *ngIf="width === 'large'">
+            <div class="wrapper">
+              <div class="cube">
+                <div>🦗</div>
+                <div>/></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </ng-container>
+        </a>
       </li>
       <li>
-        <a [routerLink]="['/monster']" routerLinkActive="router-link-active"
-          >monster</a
-        >
+        <a [routerLink]="['/monster']" routerLinkActive="router-link-active">
+          <div class="wrapper">
+            <div class="cube">
+              <div>
+                <img
+                  class="monster"
+                  src="https://i.imgur.com/w9RBk8h.png"
+                  alt="Monster Logo"
+                />
+              </div>
+              <div>/></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </a>
       </li>
     </ul>
   </nav>
