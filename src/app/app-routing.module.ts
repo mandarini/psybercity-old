@@ -5,33 +5,48 @@ import { CvComponent } from "./components/cv/cv.component";
 import { GreecehopperComponent } from "./components/greecehopper/greecehopper.component";
 import { MonsterComponent } from "./components/monster/monster.component";
 import { TalksComponent } from "./components/talks/talks.component";
+import { StreamsComponent } from "./components/streams/streams.component";
 
 const routes: Routes = [
   {
     path: "🐈",
-    component: HomeComponent
+    component: HomeComponent,
   },
   {
     path: "cv",
-    component: CvComponent
+    component: CvComponent,
   },
   {
     path: "greecehopperJs",
-    component: GreecehopperComponent
+    component: GreecehopperComponent,
   },
   {
     path: "monster",
-    component: MonsterComponent
+    component: MonsterComponent,
   },
   {
     path: "talks",
-    component: TalksComponent
+    component: TalksComponent,
   },
-  { path: "**", redirectTo: "/🐈", pathMatch: "full" }
+  {
+    path: "streams",
+    component: StreamsComponent,
+  },
+  {
+    path: "discord",
+    component: HomeComponent,
+    resolve: {
+      url: "externalUrlRedirectResolver",
+    },
+    data: {
+      externalUrl: "https://discord.gg/cc6vQseSUd",
+    },
+  },
+  { path: "**", redirectTo: "/🐈", pathMatch: "full" },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: "legacy" })],
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}
