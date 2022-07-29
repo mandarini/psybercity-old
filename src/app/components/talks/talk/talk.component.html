@@ -1,71 +1,49 @@
 <section [attr.id]="'talk' + id_talk">
   <h4>
-    <a [href]="talk.conf_info.website" target="_blank">{{ talk.name }}</a>
+    <a [href]="talk.link" target="_blank">{{ talk.title }}</a>
   </h4>
-  <div>
-    <p>Location: {{ talk.conf_info.location }}</p>
-    <p>Venue: {{ talk.conf_info.venue }}</p>
-    <p>Date: {{ talk.conf_info.date }}</p>
+  <div *ngIf="talk.conf_info">
+    <p>Location: {{ talk.conf_info?.location }}</p>
+    <p>Venue: {{ talk.conf_info?.venue }}</p>
+    <p>Date: {{ talk.conf_info?.date }}</p>
   </div>
-  <div class="talk-info" *ngIf="talk.talk">
-    <h5>Talk: {{ talk.talk.title }}</h5>
-    <p>{{ talk.talk.description }}</p>
+  <div class="talk-info" *ngIf="talk.postType !== 'Workshops'">
+    <h5>Talk: {{ talk.title }}</h5>
+    <p>{{ talk.description }}</p>
   </div>
-  <div class="talk-info" *ngIf="talk.workshop">
-    <h5>Workshop: {{ talk.workshop.title }}</h5>
-    <p>{{ talk.workshop.description }}</p>
-    <p>Participants: {{ talk.workshop.participants }}</p>
-    <p>Duration: {{ talk.workshop.duration }}</p>
+  <div class="talk-info" *ngIf="talk.postType === 'Workshops'">
+    <h5>Workshop: {{ talk.title }}</h5>
+    <p>{{ talk.description }}</p>
+    <!-- <p>Participants: {{ talk.workshop.participants }}</p>
+    <p>Duration: {{ talk.workshop.duration }}</p> -->
   </div>
-  <div class="media">
+  <div class="media" *ngIf="talk.media">
     <h5>Media</h5>
-    <ul *ngIf="talk.talk">
-      <li *ngIf="talk.talk.media && talk.talk.media.slides">
-        <a [href]="talk.talk.media.slides" target="_blank">Slides</a>
+    <ul *ngIf="talk">
+      <li *ngIf="talk.media && talk.media.slides">
+        <a [href]="talk.media.slides" target="_blank">Slides</a>
       </li>
-      <li *ngIf="talk.talk.media && talk.talk.media.code">
+      <li *ngIf="talk.media && talk.media.code">
         <a
-          *ngFor="let code of talk.talk.media.code; let i = index"
+          *ngFor="let code of talk.media.code; let i = index"
           [href]="code"
           target="_blank"
           >Code {{ i + 1 }}</a
         >
       </li>
-      <li *ngIf="talk.talk.media && talk.talk.media.demo">
+      <li *ngIf="talk.media && talk.media.demo">
         <a
-          *ngFor="let demo of talk.talk.media.demo; let i = index"
+          *ngFor="let demo of talk.media.demo; let i = index"
           [href]="demo"
           target="_blank"
           >Demo {{ i + 1 }}</a
         >
       </li>
-      <li *ngIf="talk.talk.media && talk.talk.media.video">
-        <a [href]="talk.talk.media.video" target="_blank">Video</a>
+      <li *ngIf="talk.media && talk.media.video">
+        <a [href]="talk.media.video" target="_blank">Video</a>
       </li>
-    </ul>
-
-    <ul *ngIf="talk.workshop">
-      <li *ngIf="talk.workshop.media && talk.workshop.media.slides">
-        <a [href]="talk.workshop.media.slides" target="_blank">Slides</a>
-      </li>
-      <li *ngIf="talk.workshop.media && talk.workshop.media.code">
-        <a
-          *ngFor="let code of talk.workshop.media.code; let i = index"
-          [href]="code"
-          target="_blank"
-          >Code {{ i + 1 }}</a
-        >
-      </li>
-      <li *ngIf="talk.workshop.media && talk.workshop.media.demo">
-        <a
-          *ngFor="let demo of talk.workshop.media.demo; let i = index"
-          [href]="demo"
-          target="_blank"
-          >Demo {{ i + 1 }}</a
-        >
-      </li>
-      <li *ngIf="talk.workshop.docs && talk.workshop.media.docs">
-        <a [href]="talk.workshop.media.docs" target="_blank">Docs</a>
+      <li *ngIf="talk.docs && talk.media.docs">
+        <a [href]="talk.media.docs" target="_blank">Docs</a>
       </li>
     </ul>
   </div>

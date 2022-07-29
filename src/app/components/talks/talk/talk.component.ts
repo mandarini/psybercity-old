@@ -1,15 +1,14 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { KeyValue } from "@angular/common";
+import { Talk } from "src/app/objects/merged-talk";
 
 @Component({
   selector: "app-talk",
   templateUrl: "./talk.component.html",
-  styleUrls: ["./talk.component.scss"]
+  styleUrls: ["./talk.component.scss"],
 })
 export class TalkComponent implements OnInit {
-  @Input() talk: any;
+  @Input() talk: Talk;
   @Input() id_talk: number;
-  @Input() talk_key: string;
 
   constructor() {}
 

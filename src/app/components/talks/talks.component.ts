@@ -1,21 +1,21 @@
-import { Component } from "@angular/core";
-import { talks } from "src/app/consts/talks";
+import { Component, OnInit } from "@angular/core";
+import talks from "../../../assets/merged-talks.json";
 import { KeyValue } from "@angular/common";
+import { Talk } from "src/app/objects/merged-talk";
 
 @Component({
   selector: "app-talks",
   templateUrl: "./talks.component.html",
   styleUrls: ["./talks.component.scss"],
 })
-export class TalksComponent {
-  all_talks: { [key: string]: any } = talks;
+export class TalksComponent implements OnInit {
+  all_talks: Talk[] = talks;
 
   constructor() {}
 
-  keyAscOrder = (
-    a: KeyValue<number, string>,
-    b: KeyValue<number, string>
-  ): number => {
-    return a.key < b.key ? -1 : b.key < a.key ? 1 : 0;
-  };
+  ngOnInit() {
+    this.all_talks = this.all_talks.sort((a, b) => {
+      return a.timestamp > b.timestamp ? -1 : 1;
+    });
+  }
 }

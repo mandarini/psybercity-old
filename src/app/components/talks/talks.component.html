@@ -1,37 +1,29 @@
 <div class="all-talks">
   <a id="top"></a>
-  <h2>
-    If you're looking for my streams, goto
-    <a [routerLink]="['/streams']">streams</a> page.
-  </h2>
-  <h3>Talks</h3>
+  <h3>Talks / Workshops / Appearances</h3>
+  <h5>any activity that's reaching out to the public 💕</h5>
   <div class="to-top">
     <a href="/talks#top">top &#8682;</a>
   </div>
-  <p *ngFor="let talk of all_talks | keyvalue: keyAscOrder; let i = index">
-    <a [href]="'/talks#talk' + i">{{ talk.value.name }}</a>
+  <p *ngFor="let talk of all_talks; let i = index">
+    <span> {{ all_talks.length - i }} - </span>
+    <a [href]="'/talks#talk' + i">{{ talk.title }}</a>
     -
     <span class="date"
-      ><em>({{ talk.value.conf_info.date }})</em></span
+      ><em>({{ talk.date }})</em></span
     >
   </p>
   <div class="disclaimers">
     <p>
       <em
-        >There's 11 more things to add here, will add eventually, I promise.</em
-      >
-    </p>
-    <p>
-      <em
-        >Also, I promise even more, one day I'll make this list pretty, worthy
-        of my css skills, really.</em
+        >I promise one day I'll make this list pretty, worthy of my css skills,
+        really.</em
       >
     </p>
   </div>
   <app-talk
-    *ngFor="let talk of all_talks | keyvalue: keyAscOrder; let i = index"
+    *ngFor="let talk of all_talks; let i = index"
     [id_talk]="i"
-    [talk]="talk.value"
-    [talk_key]="talk.key"
+    [talk]="talk"
   ></app-talk>
 </div>
